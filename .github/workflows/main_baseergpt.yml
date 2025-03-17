@@ -18,7 +18,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20.x'  # explicitly specify a compatible Node.js version
+          node-version: '20'  # explicitly specify a compatible Node.js version
 
       - name: Install PNPM
         run: npm install -g pnpm
